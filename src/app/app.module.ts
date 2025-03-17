@@ -10,6 +10,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ServicesComponent } from './components/services/services.component';
 import { CustomModule } from './modules/custom.module';
 import { InterpolationComponent } from './tutorials/interpolation/interpolation.component';
+import { PropertyBindingComponent } from './tutorials/property-binding/property-binding.component';
+import { EventBindingComponent } from './tutorials/event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { InterpolationComponent } from './tutorials/interpolation/interpolation.
     NavBarComponentComponent,
     SidebarComponent,
     ServicesComponent,
-    InterpolationComponent
+    InterpolationComponent,
+    PropertyBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,

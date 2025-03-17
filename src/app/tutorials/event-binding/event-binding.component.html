@@ -1,0 +1,11 @@
+<div>
+    <h2>Event Binding</h2>
+    <button (click)="buttonClick()" [ngStyle]="styleOb"
+    [disabled]="active"
+    >Click Me</button>
+    <h2 [innerText]="counter"></h2>
+    <button (click)="increaseCount($event)">Increse</button>
+    <hr>
+    <!-- <input #inputField type="text" (keyup)="getInput($event, inputField)"> -->
+     <input #inputField type="text" (keyup.enter)="getInput1($event, inputField)">
+</div>
