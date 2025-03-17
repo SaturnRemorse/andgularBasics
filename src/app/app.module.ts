@@ -8,6 +8,7 @@ import { FooterComponent } from './components/FooterComponent/footer.component';
 import { NavBarComponentComponent } from './components/nav-bar-component/nav-bar-component.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ServicesComponent } from './components/services/services.component';
+import { CustomModule } from './modules/custom.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ServicesComponent } from './components/services/services.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CustomModule
   ],
   providers: [],
   bootstrap: [AppComponent]
