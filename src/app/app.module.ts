@@ -9,6 +9,7 @@ import { NavBarComponentComponent } from './components/nav-bar-component/nav-bar
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ServicesComponent } from './components/services/services.component';
 import { CustomModule } from './modules/custom.module';
+import { InterpolationComponent } from './tutorials/interpolation/interpolation.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CustomModule } from './modules/custom.module';
     FooterComponent,
     NavBarComponentComponent,
     SidebarComponent,
-    ServicesComponent
+    ServicesComponent,
+    InterpolationComponent
   ],
   imports: [
     BrowserModule,
