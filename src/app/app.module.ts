@@ -14,6 +14,8 @@ import { PropertyBindingComponent } from './tutorials/property-binding/property-
 import { EventBindingComponent } from './tutorials/event-binding/event-binding.component';
 import { TwowayBindingComponent } from './tutorials/twoway-binding/twoway-binding.component';
 import { FormsModule } from '@angular/forms';
+import { ParentCompComponent } from './tutorials/parent-comp/parent-comp.component';
+import { ChildCompComponent } from './tutorials/child-comp/child-comp.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FormsModule } from '@angular/forms';
     InterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    TwowayBindingComponent
+    TwowayBindingComponent,
+    ParentCompComponent,
+    ChildCompComponent
   ],
   imports: [
     BrowserModule,
