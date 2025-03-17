@@ -1,0 +1,7 @@
+<div>
+    <h2>This is two way binding</h2>
+    <!-- <input type="text" [value]="title" (input)="changeValue($event)"> -->
+    <input type="text" [(ngModel)]="title"> 
+    <button >Clear Field</button>
+    {{title}}
+</div>

@@ -12,6 +12,8 @@ import { CustomModule } from './modules/custom.module';
 import { InterpolationComponent } from './tutorials/interpolation/interpolation.component';
 import { PropertyBindingComponent } from './tutorials/property-binding/property-binding.component';
 import { EventBindingComponent } from './tutorials/event-binding/event-binding.component';
+import { TwowayBindingComponent } from './tutorials/twoway-binding/twoway-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,14 @@ import { EventBindingComponent } from './tutorials/event-binding/event-binding.c
     ServicesComponent,
     InterpolationComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwowayBindingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CustomModule
+    CustomModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
