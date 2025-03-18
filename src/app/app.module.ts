@@ -16,6 +16,8 @@ import { TwowayBindingComponent } from './tutorials/twoway-binding/twoway-bindin
 import { FormsModule } from '@angular/forms';
 import { ParentCompComponent } from './tutorials/parent-comp/parent-comp.component';
 import { ChildCompComponent } from './tutorials/child-comp/child-comp.component';
+import { ProfileComponent } from './examples/profile/profile.component';
+import { FriendListComponent } from './examples/friend-list/friend-list.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ChildCompComponent } from './tutorials/child-comp/child-comp.component'
     EventBindingComponent,
     TwowayBindingComponent,
     ParentCompComponent,
-    ChildCompComponent
+    ChildCompComponent,
+    ProfileComponent,
+    FriendListComponent
   ],
   imports: [
     BrowserModule,

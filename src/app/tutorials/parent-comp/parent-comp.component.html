@@ -1,4 +1,5 @@
 <div class="container">
     <p>parent component</p>
-    <app-child-comp [counter]="45"></app-child-comp>
+    <app-child-comp [counter]="100" (customEventEmitter)="parentMethod($event)"></app-child-comp>
+    <p>parentCounter {{parentCounter}}</p>
 </div>

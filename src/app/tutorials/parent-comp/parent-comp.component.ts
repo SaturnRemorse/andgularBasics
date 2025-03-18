@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class ParentCompComponent {
 
+  parentCounter = 0;
+  parentMethod(event: number){
+    this.parentCounter = event;
+  }
+
 }
